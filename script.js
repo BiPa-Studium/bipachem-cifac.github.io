@@ -39,11 +39,6 @@ async function start() {
     hide("S1M1P2")
     hide("S1M2P2")
 
-    hide("S2M1P1")
-    hide("S2M2P1")
-    hide("S2M1P2")
-    hide("S2M2P2")
-
     hide("S3")
     hide("warn")
 
