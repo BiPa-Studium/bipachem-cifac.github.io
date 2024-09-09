@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="news_and_list()">
 
     <div class="content">
 
@@ -36,14 +36,17 @@
                     Dans le cadre de cette formation franco-allemande vous devez vous inscrire à l’Université française ET allemande chaque année jusqu’à l’obtention de votre diplôme. De plus, vous devez vous inscrire à l’Université Franco-Allemande qui certifiera le double diplôme et vous attribuera une bourse de 3000€ par année de mobilité sans conditions de revenus.
                     Les délais doivent être respectés, faute de quoi l’inscription est impossible, ce qui empêche la perception des aides à la mobilité.
                     Pour pouvoir justifier de votre mobilité, vous devez également remplir des papiers de mobilité Erasmus+ pendant vos études à rendre auprès du SRI (Stratégie & Relations internationales; anciennement BRI Bureau des Relations Internationales). La bourse Erasmus + n’est percevable qu’à partir de la 2ème année.
-                </p> 
+                </p>
             </div>
             <aside>
+                <h2 class="hidden">Checklist du moment</h2>
+                <hr class="hidden">
+                <div class="chklist_actual"></div>
                 <h2>News</h2>
                 <hr>
-                <p>
-                    Site du cursus en ligne!
-                </p>
+                <div class="news_loaded" id="news_loaded_id">
+                    <p>Chargement des news...</p>
+                </div>
             </aside>
         </main>
         <footer>
