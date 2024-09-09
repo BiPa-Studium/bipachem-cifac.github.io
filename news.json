@@ -1,6 +1,13 @@
 [
 {
     "date": "09/09/2024",
+    "txt": "- News fonctionnels",
+    "txt2" : "",
+    "txt3" : ""
+},
+
+{
+    "date": "05/09/2024",
     "txt": "- Site disponible sur portable",
     "txt2" : "- Autocomplétion du formulaire Erasmus grâce à l'application",
     "txt3" : ""
