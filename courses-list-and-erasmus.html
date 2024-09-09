@@ -40,7 +40,7 @@
                 <h2>Application pour la fiche Erasmus</h2>
                 <p>
                     Cette application web a pour but de vous aider à remplir votre feuille Erasmus+ qui permet l'obtention de la bourse Erasmus+.
-                    Cette bourse est disponible à partir de la Licence 2. 
+                    Cette bourse est disponible à partir de la Licence 2.
                     Il est cependant nécessaire pour des raisons administratives (pour faire reconnaître vos cours auprès de l'université de Paris Cité)
                     de remplir un dossier de mobilité une fois par an.
                     Si vous voulez plutôt voir la liste des cours, <a href="courses-list-only.html">référez-vous à cette page.</a>
@@ -92,40 +92,67 @@
                 </div>
                 <input id="generate" type="button" class="btn success" value="Générer le document pré-rempli" onclick="start()">
 
-                <div id="form-result-id">
-                    <p class="hidden" id="S1M1P1">
+                <div id="form-result-id" class="larger_font">
+                    <p class="hidden underline" id="S1M1P1">
                         <a href="./docs/S1M1P1.pdf" target="blank">
                             Licence 1: 21-M3 + 28-P-NF-A
                         </a>
                     </p>
-                    <p class="hidden" id="S1M2P1">
+                    <p class="hidden underline" id="S1M2P1">
                         <a href="./docs/S1M2P1.pdf" target="blank">
                             Licence 1: 24-M-CHM + 28-P-NF-A
                         </a>
                     </p>
-                    <p class="hidden" id="S1M1P2">
+                    <p class="hidden underline" id="S1M1P2">
                         <a href="./docs/S1M1P2.pdf" target="blank">
                             Licence 1: 21-M3 + 28-P-NF-B
                         </a>
                     </p>
-                    <p class="hidden" id="S1M2P2">
+                    <p class="hidden underline" id="S1M2P2">
                         <a href="./docs/S1M2P2.pdf" target="blank">
                             Licence 1: 24-M-CHM + 28-P-NF-B
                         </a>
                     </p>
 
-                    <p class="hidden" id="S3">
+                    <p class="hidden underline" id="S3">
                         <a href="./docs/S3.pdf" target="blank">
-                        Licence 2: Semestre 3</a>
+                            Licence 2: Semestre 3
+                        </a>
                     </p>
 
                     <p class="hidden" id="warn">
-                        N'oubliez pas de remplir (SUR LES DEUX PAGES):<br>
-                        <input type="checkbox" name="nom_prenom"> <label for="nom_prenom">Prénom et Nom</label><br>
-                        <input type="checkbox" name="semestre"> <label for="semestre">Semestre concerné</label><br>
-                        <input type="checkbox" name="langue"> <label for="langue">Niveau de langue à l'arrivée</label><br>
-                        <input type="checkbox" name="dater"> <label for="dater">Dater et signer</label><br>
-                        <input type="checkbox" name="Noémie"> <label for="Noémie">Envoyer à Noémie Luce pour signatures</label><br>
+                        N'oubliez pas de remplir (SUR LES DEUX PAGES):<br><br>
+
+                        <label class="container-chkbox">
+                            Prénom et Nom
+                            <input type="checkbox">
+                            <span class="checkmark-chkbox"></span>
+                        </label>
+
+                        <label class="container-chkbox">
+                            Semestre concerné
+                            <input type="checkbox">
+                            <span class="checkmark-chkbox"></span>
+                        </label>
+
+                        <label class="container-chkbox">
+                            Niveau de langue à l'arrivée
+                            <input type="checkbox">
+                            <span class="checkmark-chkbox"></span>
+                        </label>
+
+                        <label class="container-chkbox">
+                            Dater et signer
+                            <input type="checkbox">
+                            <span class="checkmark-chkbox"></span>
+                        </label>
+
+                        <label class="container-chkbox">
+                            Envoyer à Noémie Luce pour signatures
+                            <input type="checkbox">
+                            <span class="checkmark-chkbox"></span>
+                        </label>
+
                     </p>
                 </div>
             </div>
