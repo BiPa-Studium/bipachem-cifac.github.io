@@ -229,6 +229,11 @@ td, th {
     text-decoration: underline;
 }
 
+.emphase_max {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /* The container for checkboxes -----------------------------------------------------------------------------------------------------------------------------------------*/
 .container-chkbox {
     display: block;
@@ -377,10 +382,10 @@ td, th {
     color: black;
 }
 
-    .success:hover {
-        background-color: #A289D9;
-        color: white;
-    }
+.success:hover {
+    background-color: #A289D9;
+    color: white;
+}
 
 .hidden {
     display: none;
